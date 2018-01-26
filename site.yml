@@ -1,0 +1,11 @@
+---
+# This playbook deploys a simple standalone Tomcat 8 server.
+
+- hosts: tomcat-servers
+  remote_user: centos
+  become: yes
+  become_method: sudo
+
+  roles:
+    - selinux
+    - tomcat

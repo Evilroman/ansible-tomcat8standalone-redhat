@@ -1,0 +1,2 @@
+[tomcat-servers] ## We can check it via: ansible -i inventory all -m ping
+ec2-instance ansible_host=ec2-user@rsichenko.info ansible_user=centos ansible_connection=ssh ansible_port=22 ansible_ssh_private_key_file=/cm/ansible/day-1/CENTOSKEY.pem
