@@ -1,4 +1,4 @@
-## Standalone Tomcat Deployment be Sichenko Roman
+## Standalone Tomcat Deployment
 
 - Requires Ansible 2.2 or newer
 - Expects RHEL 7.x hosts
